@@ -1,0 +1,832 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Seminar</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+					<section data-background="IMAGES/F2A.png" data-background-color="#4882ff"  data-background-size="100%">
+
+
+					<h2  align="left"  style="color: rgba(255, 255, 255,0.75); text-shadow: 0 0 100px rgba(0,255,255,0.95);">Tales of growth and buckling:</h2>
+					<h3  align="left"  style="color: rgba(255, 255, 255,0.75); text-shadow: 0 0 100px rgba(0,255,255,0.95);">Micro-pattern formation on petal surface cells.</h3>
+					<p   style="color: rgba(255, 255, 255,0.75); text-shadow: 0 0 100px rgba(0,255,255,0.95);">
+						Carlos A. Lugo - Glover Lab - University of Cambridge.
+					</p>
+
+					<p   style="color: rgba(255, 255, 255,0.75); text-shadow: 0 0 100px rgba(0,255,255,0.95);">
+						cal72@cam.ac.uk
+					</p>
+				</section>
+
+				<section>
+					<h3 align="left">First and foremost: Collaborators.</h3>
+				</br>
+					<p align="left">
+						Chiara Airoldi, B. J. Glover - Glover Lab.
+					</p>
+					<p align="left">
+						Chao Chen, A. Crosby - UMASS.
+					</p>
+					<p align="left">
+						Paula Rudall - Royal Botanic Gardens, Kew.
+					</p>
+				<p align="left">
+					Raymond Wightman - SLCU.
+				</p>
+				</br>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h2 align="left">What is this talk about and why bother?</h2>
+					</section>
+
+
+					<section>
+						<h3 align="left">Flower interactions with the environment.</h3>
+						<style>
+						.newspaper {
+						-webkit-column-count: 2; /* Chrome, Safari, Opera */
+						-moz-column-count: 2; /* Firefox */
+						column-count: 2;
+						}
+					 </style>
+
+					 <div class="newspaper">
+					 <!--h4 align="left" style="color: rgba(5, 84, 255, 0.73);">
+						Quick Cheatsheet-Sums and Differences
+					 </h4-->
+
+					 <h4 align="left">Structural Hydrophobicity</h4>
+					 <img  class="stretch" width=80% style="border:none; box-shadow:none;"data-src="IMAGES/Wetting.png" ></img>
+					 <br>
+					 <br>
+					 <h4 align="left">Structural Colour</h4>
+					 <br>
+					 <img  class="stretch" width=60% style="border:none; box-shadow:none;"data-src="IMAGES/FDTD.gif" ></img>
+					 <br>
+					 </div>
+
+					</section>
+
+
+					<section>
+						<h3 align="left">Epidermal petal cell surfaces!</h3>
+						<style>
+			 		  .newspaper {
+			 		  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+			 		  -moz-column-count: 2; /* Firefox */
+			 		  column-count: 2;
+			 		  }
+			 	   </style>
+
+					 <div class="newspaper">
+			 		<!--h4 align="left" style="color: rgba(5, 84, 255, 0.73);">
+			 			Quick Cheatsheet-Sums and Differences
+			 		</h4-->
+
+			 		<!--p align="left">Unique solutions given the initial data e.g. $v_o$ and $y_o$</p-->
+			 		 <img  class="stretch" width=100% style="border:none; box-shadow:none;"data-src="IMAGES/NATXA.jpg" ></img>
+				   <br>
+				   <br>
+			 		 <img  class="stretch" width=100% style="border:none; box-shadow:none;"data-src="IMAGES/NATXB.jpg" ></img>
+					 <br>
+			 	 </div>
+
+				 	<p align="left">Moyroud et al. Nature (2017)</p>
+
+					</section>
+
+
+					<section data-background-iframe="http://0.0.0.0:8001/IRITF/index.html" data-background-interactive>
+
+					<div class="newspaper">
+					<h3 align="left" style="color: rgba(0, 0, 0, 0.5);">Imagine you have bee eyes.</h3>
+					<h3 align="left" style="color: rgba(0, 0, 0, 0.5">Also, imagine that this sphere is a flower....</h3>
+				</section>
+
+
+				</section>
+				<section>
+					<section>
+						<h2 align="left">Development of wrinkles in petals.</h2>
+					</section>
+					<section>
+						<h3 align="left">Conundrum.</h3>
+						<br>
+						<p align="left">What determines the appearance/lack of structures on the epidermal cells?</p>
+						<p align="center"> Genetics? $\rightarrow$ Chemistry? $\rightarrow$ Mechanics?.</p>
+						<p align="left">Can we link some of the timescales and processes involved?</p>
+						<p align="left">Can we trigger/inhibit the formation of these patterns?</p>
+						<p align="left">Which of the mechanisms are generic and what are the relevant parameters of the system?</p>
+					</section>
+
+					<section>
+						<h4 align="left">Meet Hibiscus trionum</h4>
+
+						<style>
+			 		  .newspaper {
+			 		  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+			 		  -moz-column-count: 2; /* Firefox */
+			 		  column-count: 2;
+			 		  }
+			 	   	</style>
+
+					 <div class="newspaper">
+
+ 						<img  class="stretch" width=90% style="border:none; box-shadow:none;"data-src="IMAGES/image3.png" ></img>
+						<br>
+						<br>
+						<br>
+						<br>
+						<img  class="stretch" width=100% style="border:none; box-shadow:none;"data-src="IMAGES/image16.png" ></img>
+						<br>
+						<br>
+						<br>
+					 </div>
+					</section>
+
+					<section data-background="IMAGES/image18.png">
+					<h3 align="left" style="color: rgba(255, 255,255,1.0);">Late stage 3 - Onset of striation.</h3>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+
+					</section>
+
+					<section data-background="IMAGES/image41.png">
+						<h3 align="left" style="color: rgba(0, 0,0,0.75);">Stage 5 - Fully developed ridges.</h3>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+
+					</section>
+
+
+					<section>
+
+					<h4 align="left" style="color: rgba(5, 84, 255, 0.73);">Pattern Development</h4>
+						<img  class="stretch" width=100% style="border:none; box-shadow:none;"data-src="UPS/F1C.png" ></img>
+					</section>
+
+					<section>
+
+					<h4 align="left" style="color: rgba(5, 84, 255, 0.73);">Ridge development</h4>
+
+						<img  class="stretch" width=100% style="border:none; box-shadow:none;"data-src="UPS/F2A.png" ></img>
+					</section>
+
+					<section>
+
+					<h4 align="left" style="color: rgba(5, 84, 255, 0.73);">Ridge development</h4>
+						<img  class="stretch" width=100% style="border:none; box-shadow:none;"data-src="UPS/F2B.png" ></img>
+					</section>
+
+					<section>
+
+					<h4 align="left" style="color: rgba(5, 84, 255, 0.73);">Ridge development</h4>
+						<style>
+						.newspaper {
+						-webkit-column-count: 2; /* Chrome, Safari, Opera */
+						-moz-column-count: 2; /* Firefox */
+						column-count: 2;
+						}
+						</style>
+
+					 <div class="newspaper">
+						<img  class="stretch" width=80% style="border:none; box-shadow:none;"data-src="UPS/GROWTHX.png" ></img>
+						<br>
+						<br>
+						<img  class="stretch" width=85% style="border:none; box-shadow:none;"data-src="UPS/F3B.png" ></img>
+						<img  class="stretch" width=85% style="border:none; box-shadow:none;"data-src="UPS/F3C.png" ></img>
+					</div>
+					</section>
+
+					<section>
+					<h3 align="left" style="color: rgba(5, 84, 255, 0.73);">Ridge characterisation-EM</h3>
+					 <div class="newspaper">
+
+						 <h4 align="left" style="color: rgba(5, 84, 255, 0.73);">Cryo fractures (Ray-Chiara SLCU)</h4>
+						 	<img  class="stretch" width=75% style="border:none; box-shadow:none;"data-src="QU/CF1.png" ></img>
+							<br>
+							<br>
+
+						 <h4 align="left" style="color: rgba(5, 84, 255, 0.73);">Transmission (Paula KEW)</h4>
+						 	<img  class="stretch" width=60% style="border:none; box-shadow:none;"data-src="QU/TEM1.png" ></img>
+					 </div>
+					</section>
+
+
+					<section>
+					<h3 align="left" style="color: rgba(5, 84, 255, 0.73);">Ridge characterisation-EM</h3>
+					 <div class="newspaper">
+
+						 <h4 align="left" style="color: rgba(5, 84, 255, 0.73);">Cryo fractures (Ray-Chiara SLCU)</h4>
+							<img  class="stretch" width=90% style="border:none; box-shadow:none;"data-src="QU/CFMANY.png" ></img>
+							<br>
+							<br>
+
+						 <h4 align="left" style="color: rgba(5, 84, 255, 0.73);">Transmission (Paula KEW)</h4>
+							<img  class="stretch" width=60% style="border:none; box-shadow:none;"data-src="QU/TEMANYj.jpg" ></img>
+					 </div>
+					</section>
+
+					<section>
+					<h3 align="left" style="color: rgba(5, 84, 255, 0.73);">Ridge characterisation-Cutin staining (Paula-Kew)</h3>
+					 <div class="newspaper">
+
+							<img  class="stretch" width=70% style="border:none; box-shadow:none;"data-src="QU/RF1.jpg" ></img>
+							<br>
+							<br>
+
+							<img  class="stretch" width=80% style="border:none; box-shadow:none;"data-src="QU/RFMANY.png" ></img>
+					 </div>
+					</section>
+
+
+						<section>
+												<h3 align="left" style="color: rgba(5, 84, 255, 0.73);">Ridge features.</h3>
+															 <div class="newspaper">
+																<img  class="stretch" width=90% style="border:none; box-shadow:none;"data-src="UPS/WL.png" ></img>
+															 <!--p align="left">Unique solutions given the initial data e.g. $v_o$ and $y_o$</p-->
+															 <br>
+															 <br>
+															 <br>
+															 <h4 align="left" style="color: rgba(5, 84, 255, 0.73);">Wavelength</h4>
+
+															 <img  class="stretch" width=100% style="border:none; box-shadow:none;"data-src="UPS/LAMBDA.png" ></img>
+															 <br>
+															 <br>
+															 <br>
+
+
+
+															</div>
+						</section>
+
+
+						<section data-background-transition="fade">
+
+												<h3 align="left" style="color: rgba(5, 84, 255, 0.73);">Ridge features.</h3>
+															 <div class="newspaper">
+																<img  class="stretch" width=90% style="border:none; box-shadow:none;"data-src="UPS/WL.png" ></img>
+															 <!--p align="left">Unique solutions given the initial data e.g. $v_o$ and $y_o$</p-->
+															 <br>
+															 <br>
+															 <br>
+															 <h4 align="left" style="color: rgba(5, 84, 255, 0.73);">Amplitude</h4>
+
+															 <img  class="stretch" width=100% style="border:none; box-shadow:none;"data-src="UPS/AMP.png" ></img>
+															 <br>
+															 <br>
+															 <br>
+
+
+															</div>
+						</section>
+
+
+						<section>
+												<h3 align="left" style="color: rgba(5, 84, 255, 0.73);">Ridge features.</h3>
+															 <div class="newspaper">
+																<img  class="stretch" width=90% style="border:none; box-shadow:none;"data-src="UPS/WL.png" ></img>
+															 <!--p align="left">Unique solutions given the initial data e.g. $v_o$ and $y_o$</p-->
+															 <br>
+															 <br>
+															 <br>
+															 <h4 align="left" style="color: rgba(5, 84, 255, 0.73);">Cuticular Layer</h4>
+
+															 <img  class="stretch" width=100% style="border:none; box-shadow:none;"data-src="UPS/H.png" ></img>
+															 <br>
+															 <br>
+															 <br>
+
+
+
+															</div>
+						</section>
+
+						<section>
+												<h3 align="left" style="color: rgba(5, 84, 255, 0.73);">Cuticle Development</h3>
+															 <div class="newspaper">
+																<h4 align="left" style="color: rgba(5, 84, 255, 0.73);">Cuticular Layer</h4>
+																<img  class="stretch" width=100% style="border:none; box-shadow:none;"data-src="UPS/HNST.png" ></img>
+															 <!--p align="left">Unique solutions given the initial data e.g. $v_o$ and $y_o$</p-->
+															 <br>
+															 <br>
+															 <br>
+
+ 														   <h4 align="left" style="color: rgba(5, 84, 255, 0.73);">ECM</h4>
+															 <img  class="stretch" width=100% style="border:none; box-shadow:none;"data-src="UPS/ECMST.png" ></img>
+															 <br>
+															 <br>
+															 <br>
+
+
+
+															</div>
+						</section>
+
+						<section>
+							<h3 align="left" style="color: rgba(5, 84, 255, 0.73);">Summary.</h3>
+
+											 <div class="newspaper">
+
+												 <img align="left" class="stretch" width="100%" style="border:none; box-shadow:none; " data-src="QU/SSS.png" ></img>
+												 <br>
+												 <br>
+
+												 <img align="center" class="stretch" width="30%" style="border:none; box-shadow:none; " data-src="QU/Cellsls.png" ></img>
+
+
+										 </div>
+
+					</section>
+
+
+
+
+						<section>
+							<h3 align="left" style="color: rgba(5, 84, 255, 0.73);">Summary.</h3>
+										 <div class="newspaper">
+
+											 <h4 align="left" style="color: rgba(5, 84, 255, 0.73);">Stage 3 (Flat)</h4>
+										 	<p>
+										 		$\begin{array}{|c|c|}
+												\hline
+												 \scriptsize{Variable} & \scriptsize{mean (std)} \\ \hline
+										 		 \lambda & - \\ \hline
+										 		 A &  - \\ \hline
+										 		 h &  - \\ \hline
+										 		 L_x  &  0.18 \, (0.03) \,  \mu m \\ \hline
+										 		 L_y  &  0.30 \, (0.05) \,  \mu m \\ \hline
+										 		 L_{ECM} &  1.31 \, (0.31) \, \mu m \\
+										 		 \hline
+										 		\end{array}$
+										 	 </p>
+											 <br>
+											 <br>
+
+										 <h4 align="left" style="color: rgba(5, 84, 255, 0.73);">Stage 5 (Fully Striated)</h4>
+										 <p>
+														$\begin{array}{|c|c|}
+														\hline
+														\hline
+														\scriptsize{Variable} & \scriptsize{mean (std)} \\ \hline
+														\hline
+														\scriptsize{ \lambda} & \scriptsize{0.89 \, (0.34) \, \mu m} \\ \hline
+														\scriptsize{ A }&  \scriptsize{0.72 \, (0.19) \,  \mu m } \\ \hline
+														\scriptsize{ h} &  \scriptsize{0.26 \, (0.05) \, \mu m} \\ \hline
+														\scriptsize{ L_x }& \scriptsize{ 0.20 \, (0.02) \, \mu m} \\ \hline
+														\scriptsize{ L_y } & \scriptsize{  0.79 \, (0.15) \, \mu m} \\ \hline
+														 \scriptsize{L_{ECM-B}} & \scriptsize{ 1.36 \, (0.65) \, \mu m} \\ \hline
+														 \scriptsize{L_{ECM-T}} & \scriptsize{  1.66 \, (0.64) \, \mu m} \\
+														 \hline
+														\end{array}$
+											</p>
+
+
+
+										</div>
+					</section>
+
+
+
+
+
+				</section>
+
+
+				<section>
+					<!--section data-background-iframe="http://0.0.0.0:8001/extrudeload.html" data-background-interactive>
+					<h4 align="left" style="color: rgba(5, 84, 255, 0.73);">Ridge characterisation.</h4>
+				</section-->
+
+				<section>
+					<h2 align="left">What can we say about the origin of these patterns?</h2>
+				</section>
+
+
+				<section>
+					<h3 align="left">Composition and mechanisms.</h3>
+				  <br>
+				  <br>
+					<div class="newspaper">
+
+						<img align="left" class="stretch" width="90%" style="border:none; box-shadow:none; " data-src="IMAGES/F2.large.jpg" ></img>
+						<br>
+						<br>
+
+						<img align="left" class="stretch" width="90%" style="border:none; box-shadow:none; " data-src="IMAGES/F4.large.jpg" ></img>
+
+
+				</div>
+				<p align="right">Yates and Rose, Plant Physiology (2013)</p>
+				</section>
+
+			 <section>
+					<h3 align="left" style="color: rgba(5, 84, 255, 0.73);">But seriously, how does this stuff happen?</h3>
+
+			 </section>
+      <!-- section data-background="http://i.giphy.com/90F8aUepslB84.gif" -->
+      <section data-background="IMAGES/SH.gif">
+			 <!-- section data-background="IMAGES/force.jpg" data-background-color="#000000"  data-background-size="80%" -->
+					<!--h3 align="left" style="color: rgba(5, 84, 255, 0.73);">But seriously, how do this stuff happens?</h3-->
+						<br>
+						<br>
+						<h1 style= "color: rgba(255,255,255,0.5); text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;">Mechanics!</h1>
+
+			 </section>
+
+			 <section>
+			 	<h3 align="left" align="left" style="color: rgba(5, 84, 255, 0.73);">Mechanics and buckling theory</h3>
+				<div class="newspaper">
+
+			  <img align="center" class="stretch" width="90%" style="border:none; box-shadow:none;" src="QU/buck.gif"></img>
+				<small><p align="left">Video - Brau et al. Nature Physics (2017)</p></small>
+		    <br>
+		    <br>
+		    <br>
+			 	<h4 align="left" align="left" style="color: rgba(5, 84, 255, 0.73);">Common ground concepts:</h4>
+				  <small>
+					<p align="left">Displacements and deformations of mass distributions are <b>always</b> caused by forces.</p>
+					<p align="left">To address the effect of such forces we need to solve the equations of continuum mechanics</p>
+					<p align="left">The force field transmitted to a volume element within a body by its surroundings (force per unit volume) is called <b>stress</b>.</p>
+				</small>
+				</div>
+
+			 </section>
+
+			 <section>
+			 	<h3 align="left" align="left">Mechanics and buckling theory</h3>
+
+				<div class="newspaper">
+				<h4 align="left">General setting.</h4>
+				<img align="left" class="stretch" width="80%" style="border:none; box-shadow:none; " src="QU/MECA.png" ></img>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<p align="left">$\rho\frac{\partial^2 \mathbf{u}}{\partial t}=\rho \mathbf{b}+\mathbf{div}\mathbb{\sigma}$</p>
+				<p align="left">$\mathbf{u}=(u_1,u_2,u_3)$</p>
+				<p align="left">$u_1=\Phi_1(X,Y,Z)-X$</p>
+				<p align="left">$u_2=\Phi_1(X,Y,Z)-Y$</p>
+				<p align="left">$u_3=\Phi_1(X,Y,Z)-Z$</p>
+				</div>
+			 </section>
+
+
+			 	<section>
+			 		<h3 align="left">Mechanics and buckling theory</h3>
+			 		<div class="newspaper">
+			 		<h4 align="left">General setting.</h4>
+			 		<img align="left" class="stretch" width="80%" style="border:none; box-shadow:none; " src="QU/MECA.png" ></img>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+			 		<p align="left">$\rho$: Mass density</p>
+			 		<p align="left">$\mathbb{\sigma}$: Stress tensor</p>
+			 		<p align="left">$\mathbb{F}=\nabla{\mathbb{\Phi}}$: Deformation gradient</p>
+
+					<small>
+					<p align="left">This formalism applies to every continua for which a stress and a displacement fields can be defined.</p>
+					<p align="left">The response of the material to stress should be imposed to distinguish a solid from other continua.</p>
+					<p align="left">Living matter is well described by  <b>hyperelastic</b> constitutive laws.</p>
+					</small>
+			 		</div>
+			 	 </section>
+
+				 <section>
+				 <h3 align="left">Mechanics: Buckling theory</h3>
+				 <br>
+				 <div class="newspaper">
+				 <img align="center" class="stretch" width="85%" style="border:none; box-shadow:none; " data-src="IMAGES/COCO.png" ></img>
+				 <br>
+				 <br>
+				 <br>
+				 <h4 align="left">Elements of every model.</h4>
+
+				 <p align="left">1.- Thin sheet with bending with elastic modulus $E_f$ and thickness $h$</p>
+				 <p align="left">2.- Elastic foundation with elasticity modulus $E_s$</p>
+				 <p align="left">3.- Source of compression.</p>
+				 <br>
+			 	 </div>
+				 </section>
+
+
+       <section>
+			<h3 align="left">Buckling as a critical phenomena.</h3>
+
+
+			<p align="left">In general the problem at hand is to compute extremal values of the energy $U$</p>
+			<p align="left">$$U=U_f+U_s-L$$</p>
+			<p align="justify">Where $U_f$ and  $U_s$ represent the elastic energies of the substrate and the film.</p>
+			<p align="left"> $L$ represent any geometrical constraint (Lagrange multiplier) such as incompressibility.</p>
+			<p align="left"> A compressive threshold always needs to be reached in order to buckle.</p>
+			</section>
+
+
+      <section>
+ 			<h3 align="left" style="color: rgba(5, 84, 255, 0.73);">Examples of compressive deformation.</h3>
+			 <br>
+			 <br>
+			 <img  class="stretch" width=100% style="border:none; box-shadow:none;"data-src="IMAGES/buckmodes.png"></img>
+
+			</section>
+
+
+
+			<section>
+					<h3 align="left" style="color: rgba(5, 84, 255, 0.73);">Elastomer theory results.</h3>
+					<style>
+					.newspaper {
+					-webkit-column-count: 2; /* Chrome, Safari, Opera */
+					-moz-column-count: 2; /* Firefox */
+					column-count: 2;
+					}
+				 </style>
+
+
+
+					<div class="newspaper">
+
+				 <p align="left">Perturbation Theory:</p>
+				 <small>
+				 <p align="left"> $B_m\partial_l^4 y +F \partial_l ^2 y +Kq y +K_2 q^2 y^2=0$</p>
+			 </small>
+				 <p align="left">This admits to solutions of the form:</p>
+				 <p align="left">$y=Acos(2\pi x/\lambda)$</p>
+				 <p align="left">If:</p>
+				 <p align="left">$F=\frac{4\pi^2B_m}{\lambda^2}+\frac{\lambda K}{2\pi}$</p>
+				 <p align="left">Which implies that if:</p>
+				 <p align="left">$F &lt; F_c=3q_o^2B_m$</p>
+				 <p align="left">The solution is flat</p>
+				 <p align="left">If $F=F_c$ then one gets buckled solutions with:</p>
+				 <p align="left">$\lambda_o=2\pi \left( \frac{2B_m}{K} \right) ^{1/3} \sim h \left( \frac{E_f}{E_s} \right) ^ {1/3}$</p>
+				 <!--p align="left">\lambda =2\pi\left(\frac{2B_m}{K} \right)\sim h\left(\frac{E}{K} \right)</p-->
+
+					<!--p align="left">Unique solutions given the initial data e.g. $v_o$ and $y_o$</p-->
+
+				 </div>
+		</section>
+	</section>
+
+ <section>
+
+	 <section>
+	 			<h4 align="left">Growth Tensors-Quasistatic Model.</h4>
+
+
+	 				<p align="left">We use the control parameters $R$ and $h_o$ where:</p>
+	  			  <p align="left">$R=\frac{E_f}{E_s}$ and $h_o$ is the initial thickness of the cuticle.</p>
+	 				<h4 align="left">Growth Models: $\mathbb{F}_{g,k}:$</h4>
+	 				<p align="left">\begin{pmatrix}g_{1k}(t) & 0 & 0\\\ 0 & g_{2k}(t) & 0\\\ 0& 0 & g_{3k}(t) \end{pmatrix}</p>
+	 				<p align="left">Where $g_{jk}(t)$ follows the rule $\dot{g}_{jl}=\lambda_{jl}(t)g_{jl}$ or $g_{jl}(t)=g_{jl}(0)e^{\int_0^{t}\lambda_{jl}(t)dt}$</p>
+
+	 	</section>
+
+
+	 	<section>
+	 			<h3 align="left" style="color: rgba(5, 84, 255, 0.73);">Examples: $\lambda(t)$</h3>
+	 			<img  class="stretch" width=100% style="border:none; box-shadow:none;"data-src="IMAGES/Lmodes.png" ></img>
+	 	</section>
+
+
+	 	<section>
+	 			<h3 align="left" style="color: rgba(5, 84, 255, 0.73);">Examples: $g(t)$</h3>
+	 			<img  class="stretch" width=100% style="border:none; box-shadow:none;"data-src="IMAGES/Gmodes.png" ></img>
+	 	</section>
+
+
+
+		<section>
+				<h2 align="left" style="color: rgba(5, 84, 255, 0.73);">Typical Dynamics.</h2>
+				<br>
+				<br>
+				<iframe src="vids/example.webm" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+			  <iframe src="vids/Rclose.webm" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+  			<!--source src="movie.ogg" type="video/ogg"-->
+
+		</section>
+
+		<section>
+				<h2 align="left" style="color: rgba(5, 84, 255, 0.73);">Typical Dynamics II-Boundary Conditions.</h2>
+				<br>
+				<br>
+				<iframe src="vids/output.mp4" width="260" height=315 frameborder="0" allowfullscreen></iframe>
+
+		</section>
+
+
+		<section>
+			<h3 align="left" align="left" style="color: rgba(5, 84, 255, 0.73);">Results $R=E_f/E_s$.</h3>
+
+			 <img  class="stretch" width=100% style="border:none; box-shadow:none;"data-src="IMAGES/RAmps.png" ></img>
+
+		</section>
+
+		<section>
+			<h3 align="left" align="left" style="color: rgba(5, 84, 255, 0.73);">Results $h_o$.</h3>
+
+			 <img  class="stretch" width=100% style="border:none; box-shadow:none;"data-src="IMAGES/HAmps.png" ></img>
+
+		</section>
+
+		</section>
+
+    <section>
+
+					 	<section>
+					  	<!--h4 align="left" style="color: rgba(5, 84, 255, 0.73);">Mechanics</h4-->
+							<h3 align="left" style="color: rgba(5, 84, 255, 0.73);">Elastic Modulii Estimations (AFM)</h3>
+					  	<style>
+					    .newspaper {
+					    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+					    -moz-column-count: 2; /* Firefox */
+					    column-count: 2;
+					   	 }
+					    </style>
+
+					   	<div class="newspaper">
+
+
+
+
+					     <br>
+
+
+					  		 <img  class="stretch" width=100% style="border:none; box-shadow:none;"data-src="ppt/52purple.png" ></img>
+					 		 <br>
+
+						    <img  class="stretch" width=100% style="border:none; box-shadow:none;"data-src="IMAGES/AFMbars.png" ></img>
+
+							 <br>
+							 <br>
+							 <br>
+
+					   	</div>
+
+					  </section>
+
+						<section>
+						 <style>
+						 .newspaper {
+						 -webkit-column-count: 2; /* Chrome, Safari, Opera */
+						 -moz-column-count: 2; /* Firefox */
+						 column-count: 2;
+							}
+						 </style>
+						 <h4 align="left" style="color: rgba(5, 84, 255, 0.73);">
+						 Characterization of transgenic plants with smooth flowers
+						</h4>
+							<div class="newspaper">
+								<p align="left">Striated WT flowers:</p>
+								<img  class="stretch" width=50% style="border:none; box-shadow:none;"data-src="ppt/WTCUT.png" ></img>
+						    <br>
+
+								<p align="left" >Transgenics with smooth flowers:</p>
+								<img  class="stretch" width=50% style="border:none; box-shadow:none;"data-src="ppt/TRSCUT.jpg" ></img>
+							</div>
+
+						  <div align="left">
+							<ul>
+							<li>Cuticle thickness</li>
+							<li>Cell growth</li>
+							<li>Stiffness</li>
+							<li> Chemistry-LESA-MS</li>
+							</ul>
+						  </div>
+						</section>
+
+           <section>
+						 		<h3 align="left">Acknowledgments.</h3>
+								<br>
+								<br>
+								<p align="left">Jordan Ferria - Glover Lab.</p>
+								<br>
+								<p align="left">Edwidge Moyroud - SLCU.</p>
+
+					 </section>
+
+					 <section>
+						 <br>
+						 <br>
+							 <h1 align="center">Thanks!</h1>
+
+					</section>
+
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+
+				transition: 'fade', // none/fade/slide/convex/concave/zoom
+
+				// specified using percentage units.
+				width: 1366,
+				height: 768,
+				// Factor of the display size that should remain empty around the content
+				margin: 0.001,
+
+				math: {
+						mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+						config: 'TeX-AMS_HTML-full',  // See http://docs.mathjax.org/en/latest/config-files.html
+						// pass other options into `MathJax.Hub.Config()`
+						TeX: { Macros: { RR: "{\\bf R}" }  }
+					},
+				//Bounds for smallest/largest possible scale to apply to content
+			 //	minScale: 0.9,
+				//  maxScale: 0.0
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true },
+					{ src: 'plugin/search/search.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/math/math.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

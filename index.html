@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Seminar</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+					<section data-background="UPFIGS/woops.png" data-background-color="#4882ff"  data-background-size="100%">
+
+					<br>
+					<br>
+					<br>
+
+					<h2  align="left"  style="color: rgba(255, 255, 255,0.75); text-shadow: 0 0 100px rgba(0,255,255,0.95);">MECHANICAL SURFACE PATTERNS.</h2>
+					<h3  align="left"  style="color: rgba(255, 255, 255,0.75); text-shadow: 0 0 100px rgba(0,255,255,0.95);">Wrinkling theory.</h3>
+					<p   style="color: rgba(255, 255, 255,0.75); text-shadow: 0 0 100px rgba(0,255,255,0.95);">
+						Paper Notes.
+					</p>
+
+					<p   style="color: rgba(255, 255, 255,0.75); text-shadow: 0 0 100px rgba(0,255,255,0.95);">
+						cal72@cam.ac.uk
+					</p>
+				</section>
+
+					<section>
+
+					<h4 align="left" style="color: rgba(5, 84, 255, 0.73);">Mechanics.</h4>
+						<style>
+						.newspaper {
+						-webkit-column-count: 2; /* Chrome, Safari, Opera */
+						-moz-column-count: 2; /* Firefox */
+						column-count: 2;
+						}
+						</style>
+
+					 <div class="newspaper">
+						 <p align="left"> Deformation process from  $\Omega_o$ into $\Omega$.</p>
+						 $$\rho \mathbf{u}_{tt}= \nabla \cdot \mathbb{T}+\mathbf{f}$$
+						 <p align="left">Where $\mathbf{u}=\mathbf{r}-\mathbf{r_o}$, $\mathbf{r}$ in $\Omega$  and $\mathbf{r}_o$ in $\Omega_o$, $\mathbf{f}$ external body forces, $\mathbb{T}$ stress tensor.</p>
+						 <p align="left">The relationhip between $\mathbf{T}$ and $\mathbb{u}$ determines the type of material (solid, fluid, etc.)</p>
+						 <p align="left">Example: Linear isotropic elastic body (Hooke's solid):</p>
+						 $$\mathbb{E}=\frac{1}{2}\left( \mathbb{\nabla u} + \mathbb{\nabla u }^T \right)$$
+						 <p align="left">and:</p>
+						 $$\mathbb{T}=C:\mathbb{E}=\lambda tr(\mathbb{E})+2\mu\mathbb{E}$$
+						 <p align="left"> give:</p>
+						 $$\small{\rho\mathbf{u}_{tt}=\mathbf{f}+(\lambda+\mu)\nabla(\nabla\cdot\mathbf{u})+\nabla^2\mathbf{u} }$$
+						<!-- img  class="stretch" width=80% style="border:none; box-shadow:none;"data-src="UPS/GROWTHX.png" ></img>
+						<br>
+						<br>
+						<img align="left" class="stretch" width="100%" style="border:none; box-shadow:none; " data-src="QU/SSS.png" ></img-->
+					</div>
+					</section>
+
+					<section>
+
+					<h4 align="left" style="color: rgba(5, 84, 255, 0.73);">Mechanics.</h4>
+						<style>
+						.newspaper {
+						-webkit-column-count: 2; /* Chrome, Safari, Opera */
+						-moz-column-count: 2; /* Firefox */
+						column-count: 2;
+						}
+						</style>
+
+					 <div class="newspaper">
+						 <br>
+						 <p align="left"  style="color: rgba(5,84, 255, 0.73);">Required:</p>
+						 <p class="fragment grow">Initial configuration.</p>
+						 <p class="fragment grow">Boundary conditions (Robin,Dirichlet,Neumann).</p>
+						 <p class="fragment grow">Constitutve law.</p>
+						 <p class="fragment grow">Material parameter values.</p>
+
+						 <br>
+						 <br>
+						 <p align="left" style="color: rgba(5, 84, 255, 0.73);">Buckling and Wrinkling.</p>
+						 <p align="left" >Non-linear critical phenomena.</p>
+						 <p align="left" >The stationary solution becomes instable and new configuartions appear for a set of critcal stresses.</p>
+						 <p align="left">The resultant pattern is determined by the geometry of the domain, boundary conditions and forces.</p>
+
+					</div>
+					</section>
+
+					<section>
+					<section>
+
+					<h4 align="left" style="color: rgba(5, 84, 255, 0.73);">Stretching Films-The role of geometry, Parameters R=W/L, h </h4>
+						<style>
+						.newspaper {
+						-webkit-column-count: 2; /* Chrome, Safari, Opera */
+						-moz-column-count: 2; /* Firefox */
+						column-count: 2;
+						}
+						</style>
+
+					 <div class="newspaper">
+						 <br>
+						  <p align="left">$\Delta x=0.0$.</p>
+						 <img  class="stretch" width=60% style="border:none; box-shadow:none;"data-src="ROBSPICS/p0.png" ></img>
+						 <br>
+						 <br>
+						 <br>
+						 <p align="left">$\Delta x=0.05$.</p>
+						 <img  class="stretch" width=60% style="border:none; box-shadow:none;"data-src="ROBSPICS/p25.png" ></img>
+						 <br>
+						 <br>
+						 <br>
+
+					</div>
+					</section>
+
+					<section>
+
+					<h4 align="left" style="color: rgba(5, 84, 255, 0.73);">Stretching Films-Material Properties: Neo-hookean, Incompressible</h4>
+						<style>
+						.newspaper {
+						-webkit-column-count: 2; /* Chrome, Safari, Opera */
+						-moz-column-count: 2; /* Firefox */
+						column-count: 2;
+						}
+						</style>
+
+					 <div class="newspaper">
+						 <br>
+						 <p align="left" >$\Delta x=0.62$.</p>
+						 <img  class="stretch" width=60% style="border:none; box-shadow:none;"data-src="ROBSPICS/p170.png" ></img>
+						 <br>
+						 <br>
+						 <br>
+						 <p align="left" >$\Delta x=1.68$.</p>
+						 <img  class="stretch" width=60% style="border:none; box-shadow:none;"data-src="ROBSPICS/p618.png" ></img>
+						 <br>
+						 <br>
+						 <br>
+
+					</div>
+					</section>
+					<section>
+					<h4 align="left" style="color: rgba(5, 84, 255, 0.73);">Buckling as a critical phenomena.</h4>
+
+
+								<p align="left">In general the problem at hand is to compute extremal values of the energy $U$ of a thin film</p>
+								<p align="left">$$U=U_B+U_S-L$$</p>
+								<p align="justify">Where $U_B$ and  $U_S$ represent the bending energy and the stretching energy.</p>
+								<p align="left"> $L$ represent any geometrical constraint (Lagrange multiplier).</p>
+								<p align="left"> A compressive threshold always needs to be reached in order to buckle.</p>
+								<p align="left"> In general $\lambda\simeq \left(\frac{B}{K} \right)^{1/4}$ and $A\simeq(\lambda_x)^{1/2}\lambda$.</p>
+								<p align="left"> $B$ bending stiffness, $K$ foundation stiffness, $\lambda_x$ compressive stretch.</p>
+				  </section>
+
+
+				  <section>
+						<h4 align="left" style="color: rgba(5, 84, 255, 0.73);">Elements of every model.</h4>
+
+				          <br>
+									<p align="left">1.- Thin sheet with bending stiffness.</p>
+									<p align="left">2.- Elastic foundation.</p>
+									<p align="left">3.- Imposed compressive strain.</p>
+
+									<br>
+									<p align="justify"> The geometric packing constraint leads to the formation of wrinkles, the bending resistance penalizes short wavelengths, the foundation penalizes long wavelengths,
+										thus leading to new intermediate scales.</p>
+
+					</section>
+
+					</section>
+
+
+						<!--section>
+							<h3 align="left" style="color: rgba(5, 84, 255, 0.73);">Summary.</h3>
+							<p>
+								$\begin{array}{|c|c|c|}\hline
+\scriptsize{Feature} & \scriptsize{Stage 3} & \scriptsize{Stage 5} \\ \hline
+\scriptsize{ \lambda} & - & \scriptsize{0.89 \, (0.34) \, \mu m} \\ \hline
+A &  -  &   \scriptsize{0.72 \, (0.19) \,  \mu m } \\ \hline
+h &  -  &   \scriptsize{0.26 \, (0.05) \, \mu m} \\ \hline
+Width  &  18 \, (3) \,  \mu m &  \scriptsize{ 20 \, (2) \, \mu m}   \\ \hline
+Length &  30 \, (5) \,  \mu m &  \scriptsize{  79 \, (2) \, \mu m}  \\ \hline
+Height &  1.31 \, (3) \, \mu m   &  B: \scriptsize{ 1.36 \, (0.65) \, \mu m} \\ \hline
+       &     &  T: \scriptsize{  1.66 \, (0.64) \, \mu m} \\ \hline
+\end{array}$
+							</p>
+					</section>
+
+
+
+
+
+				</section-->
+
+
+ <section>
+
+	 <section>
+		 <h3 align="left" align="left" style="color: rgba(5, 84, 255, 0.73);">Neo-hookean film resting on substrate.</h3>
+
+			<img  class="stretch" width=100% style="border:none; box-shadow:none;"data-src="hfsp/models.png" ></img>
+
+	 </section>
+
+	 <section>
+		 <h3 align="left" align="left" style="color: rgba(5, 84, 255, 0.73);">Compression away from the boundaries.</h3>
+
+		 	<iframe src="ROBSPICS/wrinkles.mp4" width="760"  height="560" frameborder="0" allowfullscreen></iframe>
+
+	 </section>
+
+
+	 <section>
+						<h4 align="left">Take home.</h4>
+						<p align="left">If the threshold is not reached there is no pattern.</p>
+						<p align="left">For bilayer systems, asymptotics reveal the role of the material properties.</p>
+						<p align="left">Uniaxial induced wrinkles are always reversible (no hysteresis, Alessandra?).</p>
+						<p align="left">Frowth induced stress is irreversible.</p>
+						<p align="left">Can we compare?</p>
+
+	 </section>
+
+				</section>
+
+				<section>
+
+
+					<section>
+							<h4 align="left">Growth-Volumetric Models.</h4>
+							<div class="newspaper">
+							<br>
+							<img  class="stretch" width=100% style="border:none; box-shadow:none;"data-src="UPFIGS/3Daniso.png" ></img>
+							<br>
+							<br>
+							<br>
+							<br>
+							<img  class="stretch" width=80% style="border:none; box-shadow:none;"data-src="UPFIGS/3DISO.png" ></img>
+							<br>
+							<br>
+							<br>
+							<br>
+							<div>
+							<!--source src="movie.ogg" type="video/ogg"-->
+
+					</section>
+
+
+
+
+				<section>
+								<h4 align="left">Film growth.</h4>
+
+								<div class="newspaper">
+
+								<br>
+								<iframe src="UPFIGS/t1.mp4" width="560"  height="560" frameborder="0" allowfullscreen></iframe>
+								<br>
+								<br>
+								<br>
+								<br>
+								<iframe src="UPFIGS/t4.mp4" width="560" height="560" frameborder="0" allowfullscreen></iframe>
+								<br>
+								<br>
+								<br>
+								<br>
+								<div>
+				  			<!--source src="movie.ogg" type="video/ogg"-->
+
+			</section>
+
+
+			<section>
+							<h4 align="left">Film and substrate growth and base stretching.</h4>
+
+							<div class="newspaper">
+
+							<br>
+							<iframe src="UPFIGS/t3.mp4" width="560"  height="560" frameborder="0" allowfullscreen></iframe>
+							<br>
+							<br>
+							<br>
+							<br>
+							<iframe src="UPFIGS/t5.mp4" width="560" height="560" frameborder="0" allowfullscreen></iframe>
+							<br>
+							<br>
+							<br>
+							<br>
+							<div>
+							<!--source src="movie.ogg" type="video/ogg"-->
+
+		</section>
+
+
+
+	<section>
+					 <h4 align="left">Take home.</h4>
+					 <p align="left">Growth tensors:</p>
+					 <p class="fragment grow">Natural extension to spatial processes.</p>
+					 <p class="fragment grow">Determine the bifurcation thresholds.</p>
+					 <p align="left">Curvature 2d:</p>
+					 <p class="fragment grow">Delays the wrinkle formation.</p>
+					 <p class="fragment grow">Enforced by boundary conditions.</p>
+					 <p align="left">Volumetric case:</p>
+					 <p class="fragment grow">Base of domain stretching.</p>
+					 <p class="fragment grow">Stiffer cell wall or more than two domains.</p>
+
+	</section>
+
+
+
+
+</section>
+
+			</div>
+
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+
+				transition: 'fade', // none/fade/slide/convex/concave/zoom
+
+				// specified using percentage units.
+				width: 1366,
+				height: 768,
+				// Factor of the display size that should remain empty around the content
+				margin: 0.001,
+
+				math: {
+						mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+						config: 'TeX-AMS_HTML-full',  // See http://docs.mathjax.org/en/latest/config-files.html
+						// pass other options into `MathJax.Hub.Config()`
+						TeX: { Macros: { RR: "{\\bf R}" }  }
+					},
+				//Bounds for smallest/largest possible scale to apply to content
+			 //	minScale: 0.9,
+				//  maxScale: 0.0
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true },
+					{ src: 'plugin/search/search.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/math/math.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
